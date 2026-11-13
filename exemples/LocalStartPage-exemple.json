@@ -1,0 +1,281 @@
+{
+  "v": 1,
+  "title": "Ma page de démarrage",
+  "settings": {
+    "theme": "light",
+    "newTab": true,
+    "backupDays": 7,
+    "layout": "rows"
+  },
+  "pages": [
+    {
+      "id": "pg-liens",
+      "name": "Liens",
+      "cards": [
+        {
+          "id": "l1",
+          "type": "links",
+          "title": "Au quotidien",
+          "hue": 230,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l1a",
+              "name": "Messagerie",
+              "url": "https://example.com/mail"
+            },
+            {
+              "id": "l1b",
+              "name": "Agenda",
+              "url": "https://example.com/agenda"
+            },
+            {
+              "id": "l1c",
+              "name": "Visioconférence",
+              "url": "https://example.com/visio"
+            },
+            {
+              "id": "l1d",
+              "name": "Documents partagés",
+              "url": "https://example.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "l2",
+          "type": "links",
+          "title": "Références",
+          "hue": 150,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l2a",
+              "name": "Wikipédia",
+              "url": "https://fr.wikipedia.org"
+            },
+            {
+              "id": "l2b",
+              "name": "MDN Web Docs",
+              "url": "https://developer.mozilla.org"
+            },
+            {
+              "id": "l2c",
+              "name": "OpenStreetMap",
+              "url": "https://www.openstreetmap.org"
+            }
+          ]
+        },
+        {
+          "id": "l3",
+          "type": "links",
+          "title": "Outils",
+          "hue": 25,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l3a",
+              "name": "Traducteur",
+              "url": "https://example.com/traduction"
+            },
+            {
+              "id": "l3b",
+              "name": "Convertisseur d’unités",
+              "url": "https://example.com/convertisseur"
+            },
+            {
+              "id": "l3c",
+              "name": "Pense-bête",
+              "url": "https://example.com/notes"
+            },
+            {
+              "id": "l3d",
+              "name": "Calculatrice",
+              "url": "https://example.com/calcul"
+            },
+            {
+              "id": "l3e",
+              "name": "Fuseaux horaires",
+              "url": "https://example.com/fuseaux"
+            }
+          ]
+        },
+        {
+          "id": "l4",
+          "type": "links",
+          "title": "Actualités",
+          "hue": 295,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l4a",
+              "name": "Sciences",
+              "url": "https://example.com/sciences"
+            },
+            {
+              "id": "l4b",
+              "name": "Technologie",
+              "url": "https://example.com/techno"
+            },
+            {
+              "id": "l4c",
+              "name": "Culture",
+              "url": "https://example.com/culture"
+            }
+          ]
+        },
+        {
+          "id": "l5",
+          "type": "links",
+          "title": "Loisirs",
+          "hue": 355,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l5a",
+              "name": "Musique",
+              "url": "https://example.com/musique"
+            },
+            {
+              "id": "l5b",
+              "name": "Cuisine",
+              "url": "https://example.com/cuisine"
+            },
+            {
+              "id": "l5c",
+              "name": "Randonnées",
+              "url": "https://example.com/rando"
+            },
+            {
+              "id": "l5d",
+              "name": "Jeux",
+              "url": "https://example.com/jeux"
+            }
+          ]
+        },
+        {
+          "id": "l6",
+          "type": "links",
+          "title": "Administratif",
+          "hue": 185,
+          "w": 1,
+          "collapsed": false,
+          "items": [
+            {
+              "id": "l6a",
+              "name": "Impôts",
+              "url": "https://example.com/impots"
+            },
+            {
+              "id": "l6b",
+              "name": "Assurance",
+              "url": "https://example.com/assurance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pg-tab",
+      "name": "Tableaux",
+      "cards": [
+        {
+          "id": "t1",
+          "type": "table",
+          "title": "Projets en cours",
+          "hue": 320,
+          "w": 2,
+          "collapsed": false,
+          "rows": [
+            [
+              "Projet",
+              "Responsable",
+              "Échéance",
+              "Statut"
+            ],
+            [
+              "Refonte du site",
+              "Camille",
+              "15/12",
+              "En cours"
+            ],
+            [
+              "Audit annuel",
+              "Nicolas",
+              "31/01",
+              "À planifier"
+            ],
+            [
+              "Formation équipe",
+              "Inès",
+              "20/11",
+              "Terminé"
+            ],
+            [
+              "Migration serveur",
+              "Léo",
+              "28/02",
+              "En cours"
+            ]
+          ]
+        },
+        {
+          "id": "t2",
+          "type": "table",
+          "title": "Contacts utiles",
+          "hue": 205,
+          "w": 1,
+          "collapsed": false,
+          "rows": [
+            [
+              "Service",
+              "Contact"
+            ],
+            [
+              "Support",
+              "[Formulaire](https://example.com/support)"
+            ],
+            [
+              "Accueil",
+              "poste 1200"
+            ],
+            [
+              "Informatique",
+              "poste 4400"
+            ]
+          ]
+        },
+        {
+          "id": "t3",
+          "type": "table",
+          "title": "Raccourcis clavier",
+          "hue": 42,
+          "w": 1,
+          "collapsed": false,
+          "rows": [
+            [
+              "Action",
+              "Touches"
+            ],
+            [
+              "Rechercher",
+              "`/`"
+            ],
+            [
+              "Annuler (édition)",
+              "`Ctrl` + `Z`"
+            ],
+            [
+              "Fermer une fenêtre",
+              "`Échap`"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

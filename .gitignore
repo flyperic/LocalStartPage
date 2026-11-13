@@ -1,0 +1,4 @@
+# Sauvegardes produites par l'application : données personnelles, à ne jamais publier
+*-data.json
+*-backup*.json
+*-bookmark-*.html
